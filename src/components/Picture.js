@@ -8,7 +8,7 @@ const Picture = ({ data }) => {
             <img src={data.src.large} alt="" />
         </div>
         <p>
-            Download Image: <a target="_blank" href={data.src.large}>Click Here</a>
+            Download Image: <a href={data.src.large} rel="noopener">Click Here</a>
         </p>
     </div>
   )
